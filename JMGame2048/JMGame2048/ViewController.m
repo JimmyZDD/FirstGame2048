@@ -13,8 +13,10 @@
 @end
 
 @implementation ViewController
+#pragma mark - 代码比较low
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     _labelTagArray = [[NSMutableArray alloc]initWithCapacity:0];
